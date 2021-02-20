@@ -16,10 +16,16 @@ $color-red: #de7d8d;
     width: 100%;
   }
 
+  &__arrow-container {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__arrow {
     fill: $color-gray;
     width: 1.125rem;
-    align-self: center;
   }
 
   &__details {
@@ -31,13 +37,14 @@ $color-red: #de7d8d;
 
   &__places {
     display: flex;
-    width: 40%;
-    justify-content: space-between;
+    width: 45%;
   }
 
   &__depart {
     display: flex;
+    width: 40%;
     flex-direction: column;
+    align-self: flex-start;
     justify-content: space-between;
   }
 
@@ -47,7 +54,9 @@ $color-red: #de7d8d;
 
   &__arrive {
     display: flex;
+    width: 40%;
     flex-direction: column;
+    align-items: flex-end;
     justify-content: space-between;
   }
 

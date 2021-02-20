@@ -39,8 +39,12 @@ const Leg = ({ leg }) => {
               {leg.departure_airport}
             </BpkText>
           </div>
-          <div className={getClassName("Leg__arrow")}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <div className={getClassName("Leg__arrow-container")}>
+            <svg
+              className={getClassName("Leg__arrow")}
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
               <path
                 fillRule="evenodd"
                 d="M2.69 12a1.5 1.5 0 0 0 1.5 1.5h11.379l-4.94 4.94a1.5 1.5 0 0 0 2.122 2.12L21.31 12l-8.56-8.56a1.5 1.5 0 0 0-2.122 2.12l4.94 4.94H4.19a1.5 1.5 0 0 0-1.5 1.5z"

@@ -19,6 +19,7 @@ $color-gray: #b2aebd;
   &__price-info {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
   }
 
   &__select {
