@@ -1,0 +1,29 @@
+@import "~bpk-mixins";
+
+$color-gray: #b2aebd;
+
+.Itinerary {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 1.125rem;
+  box-shadow: 0px 1px 3px 0px rgba(37, 32, 31, 0.3);
+
+  &__agent {
+    color: $color-gray;
+  }
+
+  &__price-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__select {
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.75rem;
+  }
+}

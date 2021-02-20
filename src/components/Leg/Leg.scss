@@ -1,0 +1,73 @@
+$color-gray: #b2aebd;
+$color-green: #00a698;
+$color-red: #de7d8d;
+
+.Leg {
+  display: flex;
+  margin-bottom: 0.75rem;
+
+  &__logo-container {
+    display: flex;
+    width: 2rem;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 100%;
+  }
+
+  &__arrow {
+    fill: $color-gray;
+    width: 1.125rem;
+    align-self: center;
+  }
+
+  &__details {
+    display: flex;
+    margin-left: 0.75rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &__places {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+
+  &__depart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__airport {
+    color: $color-gray;
+  }
+
+  &__arrive {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__stops {
+    &--green {
+      color: $color-green;
+    }
+    &--red {
+      color: $color-red;
+    }
+  }
+
+  &__full-time {
+    color: $color-gray;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
