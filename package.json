@@ -14,9 +14,10 @@
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^9.0.2",
-    "bpk-component-text": "^3.1.35",
-    "bpk-mixins": "^20.1.17",
-    "bpk-stylesheets": "^6.0.67",
+    "bpk-component-button": "^3.3.17",
+    "bpk-component-text": "^3.1.36",
+    "bpk-mixins": "^20.1.18",
+    "bpk-stylesheets": "^6.0.68",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-test-renderer": "^16.11.0"
